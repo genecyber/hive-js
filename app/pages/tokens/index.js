@@ -11,14 +11,26 @@ module.exports = function(el){
       title: 'Available Tokens',
       id: 'token_dropdown',
       tokens: [
-        {
-          token: 'bitcoin',
-          bitcoin: true
-        },
-        {
-          token: 'litecoin',
-          litecoin: true
-        }
+          {
+              token: 'bitcoin',
+              bitcoin: true
+          },
+          {
+              token: 'litecoin',
+              litecoin: true
+          },
+          {
+              token: 'mastercoin',
+              mastercoin: true
+          },
+          {
+              token: 'prozcoin',
+              mastercoin: true
+          },
+          {
+              token: 'merchantcoin',
+              mastercoin: true
+          }
       ],
       capitalize: function(str){
         return str.replace(/^.|\s\S/g, function(a) {

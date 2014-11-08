@@ -7,7 +7,10 @@ var ltcToBtc = require('./sochain').ltcToBtc
 var ExchangeRateFunctions = {
   bitcoin: getExchangeRates,
   testnet: getExchangeRates,
-  litecoin: getLitecoinExchangeRates
+  litecoin: getLitecoinExchangeRates,
+  mastercoin: getLitecoinExchangeRates,
+  prozcoin: getLitecoinExchangeRates,
+  merchantcoin: getLitecoinExchangeRates
 }
 
 function BitcoinAverage(network){
